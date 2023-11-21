@@ -1,0 +1,22 @@
+{
+  "name": "inbox-app",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^0.7.2",
+    "@libsql/client": "^0.4.0-pre.1",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "drizzle-orm": "^0.29.0",
+    "elysia": "latest",
+    "jose": "^5.1.1",
+    "redis": "^4.6.10"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.20.4"
+  },
+  "module": "src/index.js"
+}
